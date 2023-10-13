@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Amazon Ember';
+    src: local("Amazon Ember"),local("AmazonEmber-Regular"),url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    src: local("Amazon Ember"),local("AmazonEmber-Italic"),url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 700;
+    src: local("Amazon Ember"),local("AmazonEmber-Bold"),url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 700;
+    src: local("Amazon Ember"),local("AmazonEmber-BoldItalic"),url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff) format("woff")
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size:12px;
+    
+}
+img{
+    width:150px;
+}
+.contenedor{
+    text-align:center;
+    items-align:center;
+    margin-top:30px;
+}
+.contenido{
+    text-align:left;
+    items-align:center;
+    margin-top:30px;
+}
+
+.titulo{
+    
+    font-size:25px;
+    padding-bottom:10px;
+}
+
+.github-login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background:#FFFFFF;
+}
+label{
+    display: block;
+    text-align: left;
+}
+
+.github-login input {
+    line-height: 20px;
+    padding:5px 0;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+form a{
+    float: right;
+    font-size: 12px;
+
+}
+.github-login input[type="submit"] {
+    background-color: #FFD814;
+    
+    cursor: pointer;
+}
+.github-login input[type="submit"]:hover {
+    background-color: #F1C40F;
+}
+.segundo {
+
+    font-size:11px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+a{
+    text-decoration:none;
+    color:#4779DA;
+}
+a:hover{
+    border-bottom:1px solid #4779DA;
+}
+footer{
+    background:#FAFAFA;
+    border-top:2px solid #E4E4E4;
+    height:60px;
+    margin-top:30px;
+    padding-top:20px;
+    text-align:center;
+
+}
+nav a{
+    
+    padding:10px;
+    font-size:10px;
+}
+.copi{
+    padding:10px;
+    font-size:10px;
+}
+.info{
+    font-size:11px;
+    
+    padding-bottom:20px;
+}
